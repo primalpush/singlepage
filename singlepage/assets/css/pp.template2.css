@@ -1,0 +1,39 @@
+div#menu{
+    background-color: #800000;
+  }
+  
+  div#menu span{
+    color:#947575;
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size: 24px;
+    font-weight:bold;
+    margin-left: 45%;
+  }
+  
+  nav#navigation ul#nav-ul{
+    list-style: none;
+    margin-left:0px;
+    padding: 0px;
+  }
+  
+  nav#navigation ul#nav-ul li.nav-li{
+    width:100%;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom: 15px;
+    padding-top:15px;
+    margin-top:0px;
+    background-color: #800000;
+  }
+  
+  nav#navigation ul#nav-ul li.nav-li a{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    display: block;
+    padding-bottom: 5px;
+    color: #947575;
+  }
+  
+  

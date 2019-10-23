@@ -1,0 +1,66 @@
+body{
+  background-color:#333;
+}
+
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* Navigation style */
+div#header{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  z-index: 99;
+}
+div#menu{
+  background-color: rgba(128,0,0,0.15);
+  padding:10px;
+}
+
+div#menu span{
+  color:rgba(148,117,117,0.15);
+  padding-top:25px;
+  padding-bottom:25px;
+  font-size: 24px;
+  font-weight:bold;
+  margin-left: 45%;
+}
+
+nav#navigation{
+  display: none;
+  transition-duration: 0.4s;
+}
+nav#navigation ul#nav-ul{
+  list-style: none;
+  margin-left:0px;
+  padding: 0px;
+}
+
+nav#navigation ul#nav-ul li.nav-li{
+  width:100%;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom: 15px;
+  padding-top:15px;
+  margin-top:0px;
+  background-color: #800000;
+}
+
+nav#navigation ul#nav-ul li.nav-li a{
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  display: block;
+  padding-bottom: 5px;
+  color: #947575;
+}
+
+/* End Navigation Style */
+
+/* Main style */
+
+div#main{
+  padding-top:60px;
+}
